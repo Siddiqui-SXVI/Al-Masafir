@@ -1,0 +1,89 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+     font-family: 'josefin Sans', sans-serif;
+
+ }
+ header
+ {
+ 	width: 100%; height: 420vh;
+ 	background-image: linear-gradient(45deg, rgb(187, 138, 45) 0%, rgb(113, 91, 62) 70%,rgb(212, 178, 123) 70%, rgb(212, 178, 123) 71%,rgb(149, 113, 71) 71%, rgb(149, 113, 71) 77%,rgb(187, 138, 45) 77%, rgb(187, 138, 45) 87%,rgb(198, 166, 110) 87%, rgb(198, 166, 110) 96%,rgb(139, 103, 46) 96%, rgb(139, 103, 46) 100%);
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;	
+ }
+
+nav
+{   
+	width: 100%; height: 15vh;
+    background-image: linear-gradient(45deg, rgb(187, 138, 45) 0%, rgb(113, 91, 62) 70%,rgb(212, 178, 123) 70%, rgb(212, 178, 123) 71%,rgb(149, 113, 71) 71%, rgb(149, 113, 71) 77%,rgb(187, 138, 45) 77%, rgb(187, 138, 45) 87%,rgb(198, 166, 110) 87%, rgb(198, 166, 110) 96%,rgb(139, 103, 46) 96%, rgb(139, 103, 46) 100%);
+	display: flex; justify-content: space-between;
+	align-items: center ;
+}
+nav .logo h1
+{   
+	font-family: arabdances ;
+	letter-spacing: 1px;
+}
+
+nav .logo
+{   margin-left: 15px;
+	font-size: 45px; text-shadow: 5px 5px 5px black;
+	width: 40%; text-align: center; color: #ffc300;
+}
+
+nav .menu
+{
+	width: 25%; font-size: 15px;
+	display: flex; justify-content: ;
+	/* text-transform: uppercase; */
+}
+nav .menu a
+{
+	width: 50%; text-shadow: 2px 2px 2px black;
+	text-decoration: none; color: #ffc300;
+	font-weight: bold;
+}
+
+nav .menu a:hover
+{
+	color: #ffc300;
+	text-shadow: none;
+}
+
+.main
+{
+	width: 100%;
+	height: 85vh;
+}
+
+.main h3
+{   margin-top: 7%;
+	font-size: 120px; font-weight: 900; letter-spacing: 3px;
+	text-shadow: 6px 6px 6px black; color: #ffc300;
+	font-family: Gabriola; text-align: center;
+}
+.main p
+{   
+
+	margin-left: 5%; margin-right: 5%;
+	font-size: 19px; text-align: center;
+	color: black; 
+}
+
+section h1
+{ 
+  color: #ffc300; font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+  text-align: center; 
+}
+section ul
+{   
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+section h2
+{    
+    color: darkkhaki;
+	text-align: center;
+	font-size: 50px;
+}

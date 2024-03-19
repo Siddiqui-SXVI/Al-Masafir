@@ -1,0 +1,81 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+     font-family: 'josefin Sans', sans-serif;
+
+ }
+ header
+ {
+ 	width: 100%; height: 310vh;
+ 	background-image: linear-gradient(135deg, rgb(22, 114, 105) 0%, rgb(22, 114, 105) 50%,rgb(89, 171, 135) 50%, rgb(89, 171, 135) 57%,rgb(67, 152, 125) 57%, rgb(67, 152, 125) 74%,rgb(44, 133, 115) 74%, rgb(44, 133, 115) 76%,rgb(134, 209, 155) 76%, rgb(134, 209, 155) 84%,rgb(156, 228, 165) 84%, rgb(156, 228, 165) 91%,rgb(111, 190, 145) 91%, rgb(111, 190, 145) 100%);
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;	
+ }
+
+nav
+{   
+	width: 100%; height: 15vh;
+	background-image: linear-gradient(135deg, rgb(125, 207, 149) 0%, rgb(22, 114, 105) 50%,rgb(89, 171, 135) 50%, rgb(89, 171, 135) 57%,rgb(67, 152, 125) 57%, rgb(67, 152, 125) 74%,rgb(44, 133, 115) 74%, rgb(44, 133, 115) 76%,rgb(134, 209, 155) 76%, rgb(134, 209, 155) 84%,rgb(156, 228, 165) 84%, rgb(156, 228, 165) 91%,rgb(111, 190, 145) 91%, rgb(111, 190, 145) 100%);
+	color: white; display: flex; justify-content: space-between;
+	align-items: center ;
+}
+nav .logo h1
+{   
+	font-family: arabdances ;
+	letter-spacing: 1px;
+}
+
+nav .logo
+{   margin-left: 15px;
+	font-size: 40px; text-shadow: 3px 3px 3px #9CE4A5;
+	width: 25%; text-align: center; color: maroon;
+}
+
+nav .menu
+{
+	width: 25%; font-size: 15px;
+	display: flex; justify-content: ;
+	/* text-transform: uppercase; */
+}
+nav .menu a
+{
+	width: 50%;
+	text-decoration: none; color: maroon;
+	font-weight: bold; text-shadow: 1px 1px 1px #9CE4A5
+}
+
+nav .menu a:hover
+{   
+	text-shadow: none;
+	color: maroon;
+}
+
+.main
+{
+	width: 100%;
+	height: 85vh;
+}
+
+.main h3
+{   margin-top: 7%;
+	font-size: 120px; font-weight: 900; letter-spacing: 3px;
+	text-shadow: 5px 5px 5px #9CE4A5; color: maroon;
+	font-family: Gabriola; text-align: center;
+}
+.main p
+{   
+	margin-left: 5%; margin-right: 5%;
+	font-size: 19px; text-align: center;
+	color: black;
+}
+
+section
+{
+	margin-top: 2%;
+}
+section strong
+{    
+	text-shadow: 2px 2px 2px #9CE4A5; 
+	text-align: center;
+	color: maroon;
+	font-size: 35px; 
+}

@@ -1,0 +1,97 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+     font-family: 'josefin Sans', sans-serif;
+
+ }
+ header
+ {
+ 	width: 100%; height: 660vh;
+ 	background-image: radial-gradient(circle at bottom center, rgb(197, 234, 55) 0%, rgb(197, 234, 55) 12%,rgb(170, 222, 63) 12%, rgb(170, 222, 63) 18%,rgb(144, 210, 72) 18%, rgb(144, 210, 72) 23%,rgb(117, 198, 80) 23%, rgb(117, 198, 80) 47%,rgb(90, 187, 88) 47%, rgb(90, 187, 88) 59%,rgb(63, 175, 96) 59%, rgb(63, 175, 96) 68%,rgb(37, 163, 105) 68%, rgb(37, 163, 105) 86%,rgb(10, 151, 113) 86%, rgb(10, 151, 113) 100%);
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;	
+ }
+
+nav
+{   
+	width: 100%; height: 15vh;
+	background-image: radial-gradient(circle at bottom center, rgb(197, 234, 55) 0%, rgb(197, 234, 55) 12%,rgb(170, 222, 63) 12%, rgb(170, 222, 63) 18%,rgb(144, 210, 72) 18%, rgb(144, 210, 72) 23%,rgb(117, 198, 80) 23%, rgb(117, 198, 80) 47%,rgb(90, 187, 88) 47%, rgb(90, 187, 88) 59%,rgb(63, 175, 96) 59%, rgb(63, 175, 96) 68%,rgb(37, 163, 105) 68%, rgb(37, 163, 105) 86%,rgb(10, 151, 113) 86%, rgb(10, 151, 113) 100%);
+	color: white; display: flex; justify-content: space-between;
+	align-items: center ;
+}
+nav .logo h1
+{   
+	font-family: arabdances ;
+	letter-spacing: 1px;
+}
+
+nav .logo
+{   margin-left: 15px;
+	font-size: 40px; text-shadow: 3px 3px 3px black;
+	width: 40%; text-align: center; color: white;
+}
+
+nav .menu
+{
+	width: 25%; font-size: 15px;
+	display: flex; justify-content: ;
+	/* text-transform: uppercase; */
+}
+nav .menu a
+{
+	width: 50%;
+	text-decoration: none; color: white;
+	font-weight: bold; text-shadow: 2px 2px 2px black;
+}
+
+nav .menu a:hover
+{
+	color: lightgrey;
+}
+
+.main
+{
+	width: 100%;
+	height: 85vh;
+}
+
+.main h3
+{   margin-top: 7%;
+	font-size: 100px; font-weight: 900; letter-spacing: 3px;
+	text-shadow: 5px 5px 5px black; color: white;
+	font-family: Gabriola; text-align: center;
+}
+.main p
+{   
+	margin-left: 5%; margin-right: 5%;
+	font-size: 19px; text-align: center;
+	color: black;
+}
+
+section
+{
+	margin-top: 2%;
+}
+section h1
+{   
+	text-shadow: 3px 3px 3px black;
+	font-size: 40px; color: white;
+	text-align: center;
+}
+
+section h2
+{   
+	text-shadow: 3px 3px 3px black;
+	text-align: center; color: white;
+}
+
+section ul
+{   
+	color: maroon; font-weight: bold;
+	text-align: center;
+}
+section h4
+{   
+	text-shadow: 2px 2px 2px black;
+	font-size: 20px; color: white;
+	text-align: center;
+}

@@ -1,0 +1,88 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+     font-family: 'josefin Sans', sans-serif;
+
+ }
+ header
+ {
+ 	width: 100%; height: 855vh;
+ 	background-image: linear-gradient(45deg, rgba(56, 239, 63, 0.2) 0%, rgba(56, 239, 63, 0.2) 4%,rgba(47, 192, 98, 0.2) 4%, rgba(47, 192, 98, 0.2) 13%,rgba(38, 144, 133, 0.2) 13%, rgba(38, 144, 133, 0.2) 50%,rgba(29, 97, 168, 0.2) 50%, rgba(29, 97, 168, 0.2) 66%,rgba(20, 49, 203, 0.2) 66%, rgba(20, 49, 203, 0.2) 82%,rgba(11, 2, 238, 0.2) 82%, rgba(11, 2, 238, 0.2) 100%),linear-gradient(135deg, rgba(22, 202, 190, 0.2) 0%, rgba(22, 202, 190, 0.2) 14%,rgba(20, 208, 199, 0.2) 14%, rgba(20, 208, 199, 0.2) 28%,rgba(19, 214, 209, 0.2) 28%, rgba(19, 214, 209, 0.2) 35%,rgba(17, 221, 218, 0.2) 35%, rgba(17, 221, 218, 0.2) 68%,rgba(16, 227, 228, 0.2) 68%, rgba(16, 227, 228, 0.2) 95%,rgba(14, 233, 237, 0.2) 95%, rgba(14, 233, 237, 0.2) 100%),linear-gradient(90deg, rgb(89, 66, 7) 0%, rgb(89, 66, 7) 5%,rgb(79, 87, 10) 5%, rgb(79, 87, 10) 32%,rgb(68, 108, 14) 32%, rgb(68, 108, 14) 43%,rgb(58, 128, 17) 43%, rgb(58, 128, 17) 48%,rgb(47, 149, 21) 48%, rgb(47, 149, 21) 65%,rgb(37, 170, 24) 65%, rgb(37, 170, 24) 100%);
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;	
+ }
+
+nav
+{   
+	width: 100%; height: 15vh;
+	background-image: linear-gradient(160deg, rgba(56, 239, 63, 0.2) 0%, rgba(56, 239, 63, 0.2) 4%,rgba(47, 192, 98, 0.2) 4%, rgba(47, 192, 98, 0.2) 13%,rgba(38, 144, 133, 0.2) 13%, rgba(38, 144, 133, 0.2) 50%,rgba(29, 97, 168, 0.2) 50%, rgba(29, 97, 168, 0.2) 66%,rgba(20, 49, 203, 0.2) 66%, rgba(20, 49, 203, 0.2) 82%,rgba(11, 2, 238, 0.2) 82%, rgba(11, 2, 238, 0.2) 100%),linear-gradient(135deg, rgba(22, 202, 190, 0.2) 0%, rgba(22, 202, 190, 0.2) 14%,rgba(20, 208, 199, 0.2) 14%, rgba(20, 208, 199, 0.2) 28%,rgba(19, 214, 209, 0.2) 28%, rgba(19, 214, 209, 0.2) 35%,rgba(17, 221, 218, 0.2) 35%, rgba(17, 221, 218, 0.2) 68%,rgba(16, 227, 228, 0.2) 68%, rgba(16, 227, 228, 0.2) 95%,rgba(14, 233, 237, 0.2) 95%, rgba(14, 233, 237, 0.2) 100%),linear-gradient(90deg, rgb(89, 66, 7) 0%, rgb(89, 66, 7) 5%,rgb(79, 87, 10) 5%, rgb(79, 87, 10) 32%,rgb(68, 108, 14) 32%, rgb(68, 108, 14) 43%,rgb(58, 128, 17) 43%, rgb(58, 128, 17) 48%,rgb(47, 149, 21) 48%, rgb(47, 149, 21) 65%,rgb(37, 170, 24) 65%, rgb(37, 170, 24) 100%);
+ 	display: flex; justify-content: space-between;
+	align-items: center ;
+}
+nav .logo h1
+{   
+	font-family: arabdances ;
+	letter-spacing: 1px;
+}
+
+nav .logo
+{   margin-left: 15px;
+	font-size: 40px; text-shadow: 3px 3px 3px #51C111;
+	width: 25%; text-align: center; color: white;
+}
+
+nav .menu
+{
+	width: 25%; font-size: 15px;
+	display: flex; justify-content: ;
+	/* text-transform: uppercase; */
+}
+nav .menu a
+{   
+	width: 50%; text-shadow: 2px 2px 2px #51C111;
+	text-decoration: none; color: white;
+	font-weight: bold; 
+}
+
+nav .menu a:hover
+{
+	text-shadow: none;
+	color: #51C111;
+}
+
+.main
+{
+	width: 100%;
+	height: 85vh;
+}
+
+.main h2
+{   margin-top: 7%;
+	font-size: 120px; font-weight: 900; letter-spacing: 3px;
+	text-shadow: 5px 5px 5px #51C111 ; color: white;
+	font-family: Gabriola; text-align: center;
+}
+.main p
+{   
+	margin-left: 5%; margin-right: 5%;
+	font-size: 19px; text-align: center;
+	color: black;
+}
+section h1
+{   
+    color: white; 
+	text-shadow: 3px 3px 3px #51C111;
+    font-size: 40px;
+	text-align: center;
+}
+section h3
+{   
+    color: white; 
+	text-shadow: 2px 2px 2px #51C111;
+	font-size: 25px;
+	text-align: center;
+}
+section ul
+{  
+   color: #FFB90A; font-size: 19px;
+   text-align: center;
+}

@@ -1,0 +1,85 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+     font-family: 'josefin Sans', sans-serif;
+
+ }
+ header
+ {
+ 	width: 100%; height: 870vh;
+    background-image: radial-gradient(circle at 5% 5%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 39%,transparent 39%, transparent 90%,transparent 90%, transparent 100%),radial-gradient(circle at 76% 4%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 83%,transparent 83%, transparent 89%,transparent 89%, transparent 100%),radial-gradient(circle at 20% 33%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 83%,transparent 83%, transparent 90%,transparent 90%, transparent 100%),radial-gradient(circle at 44% 74%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 73%,transparent 73%, transparent 89%,transparent 89%, transparent 100%),radial-gradient(circle at 26% 31%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 44%,transparent 44%, transparent 75%,transparent 75%, transparent 100%),linear-gradient(0deg, rgb(148, 28, 74),rgb(238, 52, 93));
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;	
+ }
+
+nav
+{   
+	width: 100%; height: 15vh;
+	background-image: radial-gradient(circle at 1% 1%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 39%,transparent 39%, transparent 90%,transparent 90%, transparent 100%),radial-gradient(circle at 76% 4%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 83%,transparent 83%, transparent 89%,transparent 89%, transparent 100%),radial-gradient(circle at 20% 33%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 83%,transparent 83%, transparent 90%,transparent 90%, transparent 100%),radial-gradient(circle at 44% 74%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 73%,transparent 73%, transparent 89%,transparent 89%, transparent 100%),radial-gradient(circle at 26% 31%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 44%,transparent 44%, transparent 75%,transparent 75%, transparent 100%),linear-gradient(0deg, rgb(148, 28, 74),rgb(238, 52, 93));
+	display: flex; justify-content: space-between;
+	align-items: center ;
+}
+nav .logo h1
+{   
+	font-family: arabdances ;
+	letter-spacing: 1px;
+}
+
+nav .logo
+{   margin-left: 15px;
+	font-size: 40px; text-shadow: 3px 3px 3px #E35705;
+	width: 25%; text-align: center; color: white;
+}
+
+nav .menu
+{
+	width: 25%; font-size: 15px;
+	display: flex; justify-content: ;
+	/* text-transform: uppercase; */
+}
+nav .menu a
+{
+	width: 50%;
+	text-decoration: none; color: white;
+	font-weight: bold; text-shadow: 2px 2px 2px #E35705;
+}
+
+nav .menu a:hover
+{
+	color: #E35705; text-shadow: none;
+}
+
+.main
+{
+	width: 100%;
+	height: 85vh;
+}
+
+.main h3
+{   margin-top: 7%;
+	font-size: 90px; font-weight: 900; letter-spacing: 3px;
+	text-shadow: 5px 5px 5px #E35705; color: white;
+	font-family: Gabriola; text-align: center;
+}
+.main p
+{   
+	margin-left: 5%; margin-right: 5%;
+    font-size: 19px; text-align: center;
+	color: black;
+}
+section h1
+{   
+	text-shadow: 3px 3px 3px #E35705;
+	text-align: center; 
+	font-size: 40px; color: white;
+}
+section h2
+{   
+	text-shadow: 2px 2px 2px #E35705;
+	text-align: center; color: white;
+}
+section ul
+{    
+	color: darkgoldenrod;
+	text-align: center
+}
+
